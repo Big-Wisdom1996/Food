@@ -8,12 +8,10 @@ source.write("fools")
 
 source.close()
 
-source = open(r"/users/elihermann/documents/github/food/source.txt",'r')
+def grabLine(line):
+    source = open(r"/users/elihermann/documents/github/food/source.txt",'r')
+    for x in range (0,line):
+        data = source.readline()
+    return data
 
-line1 = source.readline()
-line2 = source.readline()
-
-print(line1)
-print(line2)
-
-source.close()
+print(grabLine(2))
