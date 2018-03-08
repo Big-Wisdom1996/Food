@@ -1,17 +1,11 @@
-Eli
-Rules
-schools
-fools
-NOOBS
-NOOBS
-NOOBS
-NOOBS
-NOOBS
-NOOBS
-ELINOOB
-NOOb
-NOOb
-D NOOb
-D NOOb
-D Soup
-I Water
+ 
+D burrito
+I tortillas
+AInv 
+WInv 10
+I beans
+AInv 
+WInv 2
+I rice
+AInv 
+WInv 2
