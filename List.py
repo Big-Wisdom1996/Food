@@ -1,13 +1,3 @@
-'''
-source = open(r"/users/elihermann/documents/github/food/source.txt",'w')
-
-source.write("Eli\n")
-source.write("Rules\n")
-source.write("schools\n")
-source.write("fools")
-
-source.close()
-'''
 def grabLine(line):
     source = open(r"/users/elihermann/documents/github/food/source.txt",'r')
     for x in range (0,line):
@@ -62,5 +52,31 @@ def newDish():
             placeIngredient(answer)
             placeActual("")
             placeInventory(input("Weekly Inventory: "))
+
+def main():            
+    line = grabLine(1)  
+    x = 1 
+    dish,ingredient, AInv, WInv = "","","",""
+    
+    while(line != "END END"): #Surf through entire document
+        line = grabLine(x)
+        if(len(line) != 1):
+            prefix = line.split(" ")[0]
+            content = line.split(" ")[1]
+        if(prefix == "D"): #Sort content
+            dish = content
+        elif(prefix == "I"):
+            ingredient = content
+        elif(prefix == "AInv"):
+            AInv = eval(content[0])#store as integer
+        elif(prefix == "WInv"):
+            WInv = eval(content[0])#store as integer
             
-newDish()
+        if(ingredient!="" and AInv!="" and WInv!=""): #When all content is full print and reset content
+            need = WInv - AInv
+            print("You need",need,ingredient)
+            ingredient, AInv, WInv = "","",""
+            
+        x += 1
+main()
+

@@ -1,11 +1,9 @@
- 
-D burrito
-I tortillas
-AInv 
-WInv 10
+D Burrito
+I Tortillas
+AInv 4
+WInv 5
 I beans
-AInv 
-WInv 2
-I rice
-AInv 
-WInv 2
+AInv 0
+WInv 7
+
+END END
