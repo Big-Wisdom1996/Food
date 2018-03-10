@@ -1,9 +1,78 @@
-D Burrito
-I Tortillas
-AInv 4
-WInv 5
-I beans
+D Spaghetti
+
+I Noodles
 AInv 0
-WInv 7
+WInv 0.5
+Unit box 
+
+I Spaghetti_Sauce
+AInv 0
+WInv 0.5
+Unit jar 
+
+D Cereal
+
+I Cereal
+AInv 0
+WInv 0.5
+Unit bag 
+
+I Milk
+AInv 0
+WInv 1
+Unit gallon 
+
+D Panini
+
+I Bread
+AInv .75
+WInv 1
+Unit loaf 
+
+I Pesto/Mayo
+AInv 2
+WInv 0.5
+Unit jar 
+
+I Serrano's
+AInv 1.5
+WInv 3
+Unit peppers 
+
+I Meat
+AInv 2
+WInv 2
+Unit container 
+
+I Sliced_Cheese
+AInv 0
+WInv 1
+Unit bag 
+
+D Kitchen_Stuff
+
+I Paper_Towels
+AInv 0
+WInv 0.5
+Unit roll 
+
+D Orange_Chicken
+
+I Chicken_Breast
+AInv 3
+WInv 3
+Unit Breasts_lol 
+
+I Orange_Sauce
+AInv 0
+WInv 1
+Unit bottle 
+
+I Rice
+AInv 4
+WInv 1
+Unit pound(s) 
+
+
 
 END END
