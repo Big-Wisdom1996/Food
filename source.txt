@@ -1,14 +1,19 @@
 D Spaghetti
 
 I Noodles
-AInv 0
+AInv 1
 WInv 0.5
 Unit box 
 
 I Spaghetti_Sauce
-AInv 0
+AInv 2
 WInv 0.5
 Unit jar 
+
+I beef
+AInv 0 
+WInv 1
+Unit pounds 
 
 D Cereal
 
@@ -25,22 +30,22 @@ Unit gallon
 D Panini
 
 I Bread
-AInv .75
+AInv 1
 WInv 1
 Unit loaf 
 
 I Pesto/Mayo
-AInv 2
+AInv 1.5
 WInv 0.5
 Unit jar 
 
 I Serrano's
-AInv 1.5
-WInv 3
+AInv 0
+WInv 4
 Unit peppers 
 
 I Meat
-AInv 2
+AInv 1
 WInv 2
 Unit container 
 
@@ -52,16 +57,16 @@ Unit bag
 D Kitchen_Stuff
 
 I Paper_Towels
-AInv 0
+AInv 1.5
 WInv 0.5
 Unit roll 
 
 D Orange_Chicken
 
 I Chicken_Breast
-AInv 3
-WInv 3
-Unit Breasts_lol 
+AInv 0
+WInv 0.5
+Unit Bag 
 
 I Orange_Sauce
 AInv 0
@@ -69,10 +74,29 @@ WInv 1
 Unit bottle 
 
 I Rice
-AInv 4
+AInv 0
 WInv 1
 Unit pound(s) 
 
+D Totinos
 
+I Pizza
+AInv 0
+WInv 4
+Unit Pizzas 
 
 END END
+
+Quesadillas
+Hamburgers
+Breakfast burritos
+Fish
+Grilled cheese
+Omlette
+Totinos pizza
+Chicken and broccoli
+Enchiladas
+Thai peanut pasta
+Tacos
+Chili
+

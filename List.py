@@ -5,6 +5,9 @@
     3) File must end with END END
     4) type a space after every unit
 '''
+#Feature combine units
+#Feature text phone
+#Feature GUI
 import math
 
 def grabLine(line):
